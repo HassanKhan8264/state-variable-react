@@ -1,0 +1,36 @@
+.addDiv{
+    /* border:1px solid red; */
+    width:50%;
+    height:auto;
+    margin:auto;
+    display:flex;
+}
+.names{
+  /* border:1px solid red; */
+  display:flex;
+  flex-wrap:wrap;
+  height:auto;
+  width:100%;
+
+}
+.icon{
+    height:100px;
+    width:100px;
+    border-radius: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     /* border:1px solid red; */
+  
+  }
+  .icon button{
+    height:50px;
+    width:50px;
+    font-size: 40px;
+    border-radius:100px;
+    background: lightgray;
+    border:none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
